@@ -7,10 +7,6 @@ import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log("USER:", process.env.EMAIL_USER);
-console.log("PASS length:", process.env.EMAIL_PASS?.length);
-
-
 // Get credentials from .env file
 const EMAIL_USER = process.env.EMAIL_USER;
 const EMAIL_PASS = process.env.EMAIL_PASS;
